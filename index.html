@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html>
-
+  <head>
+    <title>Google form data scrapper by HoanNK</title>
+  </head>
 <body>
-  <h1>Google form image scrapper by HoanNK</h1>
+  <h1>Google form data scrapper by HoanNK</h1>
   Dán dữ liệu vào đây<br>
   <textarea id="myTextarea"></textarea>
   <button type="button" onclick="myFunction()">Get data</button>
   <p id="question_no"></p>
   <div id="imageDiv"></div>
+  <div id="form-txt">
+    <h1 id="text-data">Form text data</h1>
+  </div>
   <script>
+    document.getElementById('text-data').style.visibility = "hidden";
     function myFunction() {
       var x = document.getElementById("myTextarea").value;
       var json_data = x;
-
+      document.getElementById('text-data').style.visibility = "visible";
       var JsonObject = JSON.parse(json_data);
       var count = Object.keys(JsonObject).length;
       var i;
       for (i = 0; i < count; i++) {
         //In ảnh
+        if(JsonObject[i].Question_No != null)
+        {
         var question_no = document.getElementById("imageDiv");
         question_no.innerHTML += "<h3>Question No " + JsonObject[i].Question_No + "</h3>" + "</br>";
         var create_img = document.createElement("img");
         create_img.setAttribute("src", JsonObject[i].img_url);
         create_img.setAttribute("style", "object-fit: cover;max-width: 100%;max-height: 100%;");
-        console.log(create_img);
         document.getElementById("imageDiv").appendChild(create_img);
-
+        }
+        if(JsonObject[i].Question_text != null)
+        {
+        //in dữ liệu dạng text trong form
+        var question_txt = document.getElementById("form-txt");
+        question_txt.innerHTML += "<p>" + JsonObject[i].Question_text + "</p>" + "</br>";
+        }
       }
     }
   </script>
