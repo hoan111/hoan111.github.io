@@ -1,7 +1,6 @@
 var x = document.getElementsByClassName('freebirdFormviewerViewItemsEmbeddedobjectImage');
 var y = document.getElementsByClassName('freebirdFormviewerComponentsQuestionBaseTitle');
 var jsonObj = [];
-data = {};
 var i;
 
 for (i = 0; i < x.length; i++) {
@@ -15,7 +14,10 @@ for (i = 0; i < x.length; i++) {
 for (i = 0; i < y.length; i++) {
     text = {};
     text["Question_text"] = y[i].innerText;
+    if(text["Question_text"] != "")
+    {
     jsonObj.push(text);
+    }
 }
 
 jsonStr = JSON.stringify(jsonObj, null, 2);
