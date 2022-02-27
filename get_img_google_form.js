@@ -22,7 +22,7 @@ for (i = 0; i < y.length; i++) {
 
 jsonStr = JSON.stringify(jsonObj, null, 2);
 copyToClipboard(jsonStr);
-console.log("Đã copy dữ liệu vào bộ nhớ!");
+alert("Đã copy dữ liệu vào bộ nhớ!");
 function copyToClipboard(text) {
     var dummy = document.createElement("textarea");
 
