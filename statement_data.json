@@ -1,0 +1,233 @@
+{
+    "status": "success",
+    "type": "session_list",
+    "message": "Thành công",
+    "data": [
+        {
+            "id": 126,
+            "code": "SK2535465487",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-02-01 10:20:49",
+            "updated_at": "2023-02-01 10:19:57",
+            "status": "Thất bại"
+        },
+        {
+            "id": 125,
+            "code": "SK3923460490",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 13:07:50",
+            "updated_at": "2023-01-30 13:45:49",
+            "status": "Thất bại"
+        },
+        {
+            "id": 124,
+            "code": "SK6779316174",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 11:57:13",
+            "updated_at": "2023-01-30 11:58:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 122,
+            "code": "SK6898062220",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 11:21:53",
+            "updated_at": "2023-01-30 11:22:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 117,
+            "code": "SK3606367027",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 11:20:27",
+            "updated_at": "2023-01-30 11:21:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 116,
+            "code": "SK7335129860",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 10:11:54",
+            "updated_at": "2023-01-30 10:12:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 115,
+            "code": "SK2535465425",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 09:50:58",
+            "updated_at": "2023-01-30 09:51:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 114,
+            "code": "SK2170468939",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-30 09:19:21",
+            "updated_at": "2023-01-30 09:20:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 110,
+            "code": "SK8479271830",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 12:01:00",
+            "updated_at": "2023-01-19 12:02:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 109,
+            "code": "SK4703024216",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 11:47:21",
+            "updated_at": "2023-01-19 11:48:00",
+            "status": "Thành công"
+        },
+        {
+            "id": 108,
+            "code": "SK9502631120",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 11:36:49",
+            "updated_at": "2023-01-19 11:37:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 106,
+            "code": "SK9406469510",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 11:24:46",
+            "updated_at": "2023-01-19 11:25:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 97,
+            "code": "SK2063799179",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 11:08:29",
+            "updated_at": "2023-01-19 11:09:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 96,
+            "code": "SK2584439944",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LVBis",
+            "partner_sys_id": "2",
+            "created_at": "2023-01-19 10:27:10",
+            "updated_at": "2023-01-19 10:28:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 95,
+            "code": "SK845427631",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LVBis",
+            "partner_sys_id": "2",
+            "created_at": "2023-01-19 10:25:29",
+            "updated_at": "2023-01-19 10:26:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 94,
+            "code": "SK450129976",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 10:25:09",
+            "updated_at": "2023-01-19 10:27:00",
+            "status": "Thành công"
+        },
+        {
+            "id": 93,
+            "code": "SK288034599",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-19 10:23:02",
+            "updated_at": "2023-01-19 10:24:00",
+            "status": "Thất bại"
+        },
+        {
+            "id": 92,
+            "code": "SK4089705961",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LVBis",
+            "partner_sys_id": "2",
+            "created_at": "2023-01-19 10:20:38",
+            "updated_at": "2023-01-19 10:21:00",
+            "status": "Thành công"
+        },
+        {
+            "id": 91,
+            "code": "SK7355398067",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LVBis",
+            "partner_sys_id": "2",
+            "created_at": "2023-01-19 08:26:50",
+            "updated_at": "2023-01-19 08:27:00",
+            "status": "Thành công"
+        },
+        {
+            "id": 90,
+            "code": ",SK1236546",
+            "partner_code": "LPB",
+            "partner_id": "1",
+            "partner_sys_code": "LV24h",
+            "partner_sys_id": "1",
+            "created_at": "2023-01-18 17:32:19",
+            "updated_at": "2023-01-18 17:33:01",
+            "status": "Thành công"
+        }
+    ],
+    "paging": {
+        "page_size": 20,
+        "current_page": 1,
+        "last_page": 3
+    },
+    "resp_code": 200
+}
